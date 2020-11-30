@@ -1,0 +1,17 @@
+syntax = "proto3";
+package abc;
+
+message Value {
+	Values values = 1;
+	oneof imei_present {
+		string imei = 2;
+	}
+	oneof ts_present {
+		uint64 ts = 3;
+	}
+	message Values {
+		oneof core_msg_id_present {
+			uint32 core_msg_id = 1;
+		}
+	}
+}
