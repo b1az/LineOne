@@ -1,21 +1,3 @@
 # LineOne
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `line_one` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:line_one, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/line_one](https://hexdocs.pm/line_one).
-
+A MnonWE that fails to reproduce the issue [reported on Elixir Forum](https://elixirforum.com/t/mix-warning-wont-resolve/35801).
